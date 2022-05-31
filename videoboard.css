@@ -1,0 +1,163 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+.conteiner_header{
+    max-width: 100vw;
+    min-height: 15rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to bottom, rgb(53, 51, 51), rgb(7, 7, 7) );
+}
+.conteiner_nav{
+    display: flex;
+    align-items: center;
+    padding: .5rem;
+    background: linear-gradient(to bottom, rgb(59, 57, 57), rgb(29, 27, 27));
+    box-shadow: 2px 5px 30px 10px rgb(34, 11, 11);
+}
+
+
+.logo{
+    max-width: 5rem;
+    border-radius: 50%;
+}
+h5 a{
+    text-decoration: none;
+    color:white;
+}
+h5 a:hover{
+    color:rgb(209, 18, 18);
+}
+h3 a{
+    text-decoration: none;
+    color: white;
+}
+h3 a:hover{
+    color:white;
+}
+
+
+.card:hover{
+    transition: 400ms;
+      box-shadow: 0 0 30px 10px rgba(216, 22, 22, 0.979); 
+
+}
+
+.btn-dark:hover{
+
+transform: scale(1.1);
+transition: 300ms;
+
+}
+
+.card-title:hover{
+transform: scale(1.1);
+  
+}
+
+.footer-a {
+    grid-area: a;
+  }
+  
+  .footer-b {
+    grid-area: b;
+  }
+  
+  .footer-c {
+    grid-area: c;
+  }
+  
+  .footer-d {
+    grid-area: d;
+  }
+
+  .footer-d p{
+      font-size: 1.5rem;
+      padding-top: 1rem;
+  }
+  
+  .footer-e {
+    grid-area: e;
+    padding: 1rem;
+  }
+  
+  .grid-footer {
+    display: grid;
+  
+    grid-template-columns: 1fr 1fr 1fr;
+  
+    grid-template-areas:
+      "a b c"
+      "d e c";
+  
+    gap: 1rem;
+  
+    background-color: #262626;
+  
+    padding: 1rem;
+  }
+  
+  .grid-footer > div {
+    background-color: #393939;
+  
+    text-align: center;
+  
+    padding: 1rem;
+  
+    font-size: 3rem;
+  }
+  
+  .map{
+      height: 100%;
+      width: 100%;
+  }
+  
+  @media (max-width: 600px) {
+    .grid-footer {
+      display: grid;
+  
+      grid-template-columns: 1fr;
+  
+      grid-template-areas:
+        "a"
+        "b"
+        "c"
+        "d"
+        "e";
+  
+      gap: 1rem;
+  
+      background-color: #262626;
+  
+      padding: 10px;
+    }
+  
+    .map{
+      height: 10rem;
+      width: 100%;
+  }
+  }
+  
+  .icon-footer{
+      color: #c4c4c4;
+      margin:2rem;
+  }
+  
+  p{
+      color: #c4c4c4;
+      font-size: 20px;
+  }
+  
+  .publicidad-footer{
+      height: 100%;
+      width: 100%;
+    background-color: #393939;
+    text-align: center;
+    
+  }
+  

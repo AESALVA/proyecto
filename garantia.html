@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="garantia.css">
+    <script
+    src="https://kit.fontawesome.com/c1d133cc0a.js"
+    crossorigin="anonymous"
+  ></script>
+  <link
+  href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+  rel="stylesheet"
+  integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+  crossorigin="anonymous"
+/>
+<!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+    <title>Garantias y Devoluciones</title>
+</head>
+<body>
+     <!-- AQUI EMPIEZA EL HEADER -->
+     <header>
+        <header>
+            <div class="conteiner_header">
+              <div class="conteiner_nav">
+                <img
+                  class="logo"
+                  src="https://i.pinimg.com/originals/fa/08/f6/fa08f6c72bfab28e01f4c0c60c4564de.png">
+                <nav class="navbar navbar-expand-lg navbar-dark bg-transparent d-none d-lg-flex p-1">
+                  <div class="container-fluid">
+                    <a class="navbar-brand" href="index.html">Network King</a>
+                    <button class="navbar-toggler bg-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                      <ul class="navbar-nav">
+                        <li class="nav-item">
+                          <a class="nav-link" href="notebooks.html">Notebooks</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="motherboards.html">Placas Madre</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="videoboard.html">Placas de video</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="gabinetes.html">Gabinetes</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="monitores.html">Monitores</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Más
+                          </a>
+                          <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="error.html">Memorias RAM</a></li>
+                            <li><a class="dropdown-item" href="microprocesadores.html">Microprocesadores</a></li>
+                            <li><a class="dropdown-item" href="error.html">Teclados/Keyboards</a></li>
+                            <li><a class="dropdown-item" href="error.html">Mouses</a></li>
+                            <li><a class="dropdown-item" href="error.html">Sillas/Chairs</a></li>
+                          </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Sobre Nosotros
+                          </a>
+                          <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="#consultas">Consultas</a></li>
+                            <li><a class="dropdown-item" href="#ubicacion">Ubicación</a></li>
+                            <li><a class="dropdown-item" href="aboutus.html">Quienes somos</a></li>
+                          </ul>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </nav>
+                <form class="d-flex p-1" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-danger" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+                </form>
+                <button type="button" class="btn btn-outline-danger" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                  <i class="fa-solid fa-user"></i>
+                </button>
+                <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="staticBackdropLabel">Acceso Cliente</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        <div class="mb-3">
+                          <label for="DropdownFormEmail2" class="form-label">Correo electronico</label>
+                          <input type="email" class="form-control" id="DropdownFormEmail2" maxlength="25" placeholder="NetworkKinggit @hotxxx.com">
+                        </div>
+                        <div class="mb-3">
+                          <label for="DropdownFormPassword2" class="form-label">Contraseña</label>
+                          <input type="password" class="form-control" id="DropdownFormPassword2" maxlength="15" placeholder="Contraseña">
+                        </div>
+                        <div class="mb-3">
+                          <div class="form-check">
+                            <input type="checkbox" class="form-check-input" id="dropdownCheck2">
+                            <label class="form-check-label" for="dropdownCheck2">
+                              Recuerdame
+                            </label>
+                          </div>
+                        </div>
+                        <a href="error.html" class="btn btn-danger">Ingresar</a>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cerrar</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+      
+      
+                <nav class="navbar navbar-expand-lg navbar-dark bg-transparent d-flex d-sm-none d-md-flex d-lg-none px-1">
+                  <div class="container-fluid p-0">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                      <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasNavbarLabel"><a href="index.html">Network King</a></h5>
+                        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                      </div>
+                      <div class="offcanvas-body h-100">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                          <li class="nav-item">
+                            <a class="nav-link" href="notebooks.html">Notebooks</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="motherboards.html">Placas Madre</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="videoboard.html">Placas de Video</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="gabinetes.html">Gabinetes</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="monitores.html">Monitores</a>
+                          </li>
+                          <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Más
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                              <li><a class="dropdown-item" href="microprocesadores.html">Microprocesadores</a></li>
+                              <li><a class="dropdown-item" href="error.html">Memorias RAM</a></li>
+                              <li><a class="dropdown-item" href="error.html">Teclados/Keyboards</a></li>
+                              <li><a class="dropdown-item" href="error.html">Mouses</a></li>
+                              <li><a class="dropdown-item" href="error.html">Sillas/Chairs</a></li>
+                            </ul>
+                          </li>
+                          <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Sobre Nosotros
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                              <li><a class="dropdown-item" href="index.html">Consultas</a></li>
+                              <li><a class="dropdown-item" href="index.html">Ubicación</a></li>
+                              <li><a class="dropdown-item" href="aboutus.html">Quienes Somos</a></li>
+                            </ul>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </nav>
+              </div>
+            </div>
+      
+          
+    </header>
+
+<!-- AQUI TERMINA EL HEADER-->
+<!-- AQUI EMPIEZA EL MAIN GARANTIAS Y DEVOLUCIONES-->
+<main>
+    <section>
+        <div class="conteiner_garantia">
+            <div class="conteiner_sidebar">
+                <nav>
+                    <ul>
+                        <li><a href="aboutus.html">Quienes Somos</a></li>
+                        <li><a href="terminos.html">Términos y Condiciones</a></li>
+                        <li><a href="politica.html">Política de Privacidad</a></li>
+                        <li><a href="garantia.html">Garantía y Devoluciones</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="conteiner_card_principal">
+                <h1>Garantía y devoluciones</h1>
+                <p>Los motivos por los cuales se puede gestionar el cambio o la devolución de un producto son los siguientes:
+                    • Producto defectuoso antes de usarse: el producto recibido posee alguna falla o rotura.
+                    • El producto recibido es diferente al que solicitó.
+                    
+                    En caso que un cliente reciba un producto en malas condiciones debe dar aviso dentro de las 48h de recibido el producto. Si el embalaje, caja o protector del producto llegase roto a causa del envío, no se debe abrir ni quitar ninguna faja de seguridad para hacer efectivo el cambio; Ya que al probar el producto o abrir su embalaje se considera que el cliente ha aceptado el producto como se lo entrego y no podrá hacer el cambio.</p>
+                <h4>Opciones de cambios:</h4>
+                <p>-Para cambiar un producto SIN defectos (producto diferente al que se solicitó):
+                    Si el producto es nuevo y está sin defectos, el usuario tendrá hasta 10 días consecutivos, a partir de la fecha de recepción, para poder sustituirlo por otro siempre y cuando conserve las mismas condiciones en que fue recibido (en el embalaje original, sin indicios de uso, con la factura / ticket original, manual y todos los accesorios si correspondiera). Los gastos del flete serán gratuitos para el usuario, cuando se trate del primer cambio realizado. En caso de que sea necesario uno nuevamente, los gastos de flete serán a cargo del usuario.</p>
+                <br>
+                    <p>-Para cambiar un producto CON defectos:
+                        En el caso de que el producto esté con defectos propios de fabricación, tendrá 180 días, a partir de la fecha en que recibió el pedido para hacer uso de la garantía. El plazo y forma de utilización están mencionados en las condiciones de Garantía que acompañan al producto, es indispensable que mantenga intacto el sello de garantía (de tenerlo) y que el producto no presente signos de manipulación por un servicio técnico que no sea el oficial o por el usuario mismo para su reparación o diagnóstico</p>
+                <h4>Devolución de un producto:</h4>    
+                <p>Conforme lo establece el art. 34 de la ley 24.240 de Defensa del Consumidor, en concordancia con el artículo 1.111 y 1.112 del Código Civil y Comercial de la República Argentina el usuario tendrá también 10 días contados a partir de que se entregue el bien o se celebre el contrato para poder revocar la aceptación de la compra. Si así lo decidiera se aplica lo dispuesto por el art. 10 ter de la Ley 24.240 de Defensa del Consumidor. En tal caso, el usuario deberá reintegrar el producto comunicándose con el sitio para solicitar el retiro del producto, el cual deberá estar sin uso y en perfecto estado, con sus etiquetas, envoltorios y todos los accesorios adicionales que pudieren corresponder</p>
+                <h4>12 meses de garantía con el fabricante:</h4>
+                <p>Impresoras:  Si el producto presenta algún desperfecto o falla y se encuentra dentro de los 10 días de cambiodirecto, el cliente deberá comunicarse con la respectiva marca para gestionar un número de caso para luego dirigirse con el mismo a nuestro local.Luego de los 10 días deberádirigirse al service oficial que le seráindicadollamando al númerodetelefonocorrespondiente a la marca de suproducto. 
+                </p>    
+                </div>
+        </div>
+    </section>
+</main>
+    <!--AQUI EMPIEZA EL FOOTER-->
+
+<footer class="grid-footer container-lg">
+  <div class="footer-a">
+    <a href="error.html"><i class="fa-brands fa-instagram icon-footer"></i></a>
+    <a href="error.html"><i class="fa-brands fa-facebook icon-footer"></i></a>
+  </div>
+
+  <div class="footer-b" id="consultas">
+    <a href="error.html"><i class="fa-brands fa-whatsapp icon-footer"></i></a>
+    <a href="error.html"><i class="fa-solid fa-envelope icon-footer"></i></a>
+  </div>
+
+  <div class="footer-c" id="ubicacion">
+    <iframe
+      class="map"
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3560.102220297325!2d-65.20938512249667!3d-26.836700883242802!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94225d3ad7f30f1d%3A0xf8606cd659b8e3e4!2sRollingCode%20School!5e0!3m2!1ses-419!2sar!4v1653234512620!5m2!1ses-419!2sar"
+      style="border: 0"
+      allowfullscreen=""
+      loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade"
+    ></iframe>
+  </div>
+
+  <div class="footer-d">
+    <p>© Network king</p>
+  </div>
+  
+  <aside class="footer-e publicidad-footer">
+    <a href="https://rollingcodeschool.com/" target="_blank"><img src="https://rollingcodeschool.com/wp-content/uploads/2021/07/Grupo-106.png" alt="rollingcode"></a>
+    </aside>
+    
+</footer>
+
+
+
+
+
+
+
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+</body>
+</html>
