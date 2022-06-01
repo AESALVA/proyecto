@@ -349,9 +349,6 @@ p{
         min-height: 5rem;
     }
     
-    .logo{
-        display: none;
-    }
     .conteiner_pagos{
         flex-direction: column;
         align-items: center;
