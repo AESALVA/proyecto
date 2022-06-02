@@ -5,10 +5,10 @@
     text-decoration: none;
     list-style-type: none;
 }
-body{
-      background:rgb(17, 16, 16);
-    
+main{
+    background:rgb(8, 8, 8);
 }
+
 .conteiner_header{
     max-width: 100vw;
     min-height: 15rem;
