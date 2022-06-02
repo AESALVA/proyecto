@@ -145,12 +145,10 @@ h3 a:hover{
   
 @media screen and (max-width:800px) {
     .conteiner_header{
-        min-height: 5rem;
+        min-height: 8.55rem;
     }
     
-    .logo{
-        display: none;
-    }
+    
 }
 
 
