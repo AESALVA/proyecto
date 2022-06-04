@@ -204,7 +204,7 @@ h3 a:hover{
 @media screen and (max-width:1000px){
 
     .conteiner_sidebar{
-        display: none;
+        display:none;
     }
     .conteiner_main{
         grid-template-columns: 1fr;
