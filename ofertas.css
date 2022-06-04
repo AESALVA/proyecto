@@ -192,9 +192,7 @@ transition: 300ms;
     min-width:400px;
 
 }
-p{
-    padding-left:1rem;
-}
+
  .icon{
      display: flex;
      align-items: center;
@@ -340,9 +338,6 @@ p{
         
         min-width:300px;
     
-    }
-    p{
-        font-size: .7rem;
     }
     
 }
